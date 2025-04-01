@@ -35,22 +35,61 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+Go to Azure Portal.
+
+Sign in with your Azure account.</p>
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+In the Azure Portal, click on the "Create a resource" button.
+
+Under Compute, select "Virtual Machine".
+
+</p>Subscription – Choose the appropriate subscription.
+
+Resource Group – Either create a new one or use an existing one.
+
+Virtual Machine Name – Enter a name for your VM.
+
+Region – Choose the desired location for your VM.
+
+Availability Options – Choose redundancy settings based on your needs.
+
+Security Type – Select Standard or Trusted Launch VM.
+
+Image – Select an OS (e.g., Windows Server, Ubuntu, etc.).
+
+Size – Select a VM size based on your needs.
+
+Administrator Account – Enter username and password or use SSH keys for authentication.
+
 <br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+OS Disk Type – Choose SSD or HDD.
+
+Optionally, add a data disk.
+Virtual Network – Use an existing VNet or create a new one.
+
+Subnet – Select or create a subnet.
+
+Public IP – Enable or disable a public IP.
+
+Inbound Ports – Allow specific ports (e.g., RDP for Windows, SSH for Linux).
+Enable or disable Boot diagnostics, Auto-shutdown, Monitoring, etc.
+
+Enable Backup (optional).</p>
+Click "Review + Create".
+
+Verify your configurations.
+
+Click "Create" to start the deployment.
+Windows VM: Use Remote Desktop (RDP) to connect.
+
+Linux VM: Use SSH to connect.<br />
